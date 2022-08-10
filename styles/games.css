@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-arrow i {
+  color: #00ff00;
+}
+
+.party-breakdown {
+  text-align: center;
+  padding-top: 1.5em;
+}
+.party-breakdown .tournament,
+.party-breakdown .mini-game,
+.party-breakdown .eat-drink {
+  padding-bottom: 2em;
+}
+.party-breakdown .tournament h2,
+.party-breakdown .mini-game h2,
+.party-breakdown .eat-drink h2 {
+  font-family: "Press Start 2P", cursive;
+  padding-bottom: 0.5em;
+}
+.party-breakdown .tournament p,
+.party-breakdown .mini-game p,
+.party-breakdown .eat-drink p {
+  color: black;
+  font-weight: 700;
+}/*# sourceMappingURL=games.css.map */

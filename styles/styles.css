@@ -59,19 +59,4 @@
 }
 .party-page .party-details .date-time, .party-page .party-details .location {
   margin: 2em;
-}
-
-.ready {
-  padding-top: 1em;
-  color: black;
-}
-.ready h3 {
-  font-family: "Press Start 2P", cursive;
-  font-size: 16px;
-  padding-bottom: 0.5em;
-}
-.ready ul {
-  list-style: none;
-  font-weight: 700;
-  line-height: 1.5em;
 }/*# sourceMappingURL=styles.css.map */
