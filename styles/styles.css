@@ -5,13 +5,15 @@
 
 .body {
   font-family: "Noto Sans", sans-serif;
-  color: green;
+  color: #00ff00;
   margin-left: 1em;
   margin-right: 1em;
 }
 
 .navbar {
   display: flex;
+  padding-top: 2em;
+  padding-left: 0.5em;
 }
 
 .nav-links {
@@ -23,7 +25,6 @@
 .nav-links ul li {
   list-style: none;
   display: inline-block;
-  padding: 29.92px 0;
   margin-left: 32px;
   position: relative;
 }
@@ -35,20 +36,21 @@
 
 .party-page {
   background-color: black;
-  padding-top: 1em;
   border-radius: 8px;
   text-align: center;
   color: #00ff00;
 }
 .party-page h1 {
+  padding-top: 1.25em;
+  padding-bottom: 0.5em;
   font-size: 40px;
-  line-height: 1em;
+  line-height: 3em;
   font-family: "Press Start 2P", cursive;
   text-align: center;
+  margin-bottom: 0;
 }
 .party-page h1 .forty {
   font-size: 100px;
-  line-height: 2em;
 }
 .party-page .party-details {
   font-weight: 700;
@@ -60,6 +62,16 @@
 }
 
 .ready {
-  padding: 1em;
+  padding-top: 1em;
   color: black;
+}
+.ready h3 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 16px;
+  padding-bottom: 0.5em;
+}
+.ready ul {
+  list-style: none;
+  font-weight: 700;
+  line-height: 1.5em;
 }/*# sourceMappingURL=styles.css.map */
