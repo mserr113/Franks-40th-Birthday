@@ -40,6 +40,11 @@
   padding: 3px 5px 3px 5px;
 }
 
+.nav-arrow i {
+  color: black;
+  padding-bottom: 2em;
+}
+
 .party-page {
   background-color: black;
   border-radius: 8px;
