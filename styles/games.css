@@ -5,11 +5,11 @@
 
 .nav-arrow i {
   color: #00ff00;
+  padding-bottom: 2em;
 }
 
 .party-breakdown {
   text-align: center;
-  padding-top: 1.5em;
 }
 .party-breakdown .tournament,
 .party-breakdown .mini-game,

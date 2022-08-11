@@ -6,6 +6,7 @@
        <title>Frank's 40th Birthday</title> 
        <link href="styles/normalize.css" type="text/css" rel="stylesheet"/>
        <link href="styles/styles.css" type="text/css" rel="stylesheet"/>
+       <link href="styles/rsvp.css" type="text/css" rel="stylesheet"/>
        <link rel="preconnect" href="https://fonts.googleapis.com">
        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400;500;600;700;800&family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -13,11 +14,30 @@
        <meta charset="utf-8">
     </head>
 
-<body>
-    <form action="https://formsubmit.co/mserr113@gmail.com" method="POST">
-        <input type="text" name="name" placeholder="name" required>
-        <input type="text" name="# of attendees" placeholder="# of attendees" required>
-        <input type="hidden" name="_next" value="https://mserr113.github.io/Franks-40th-Birthday/games.html">
-        <button type="submit">Send</button>
-    </form>
+<body class="body">
+    <header class="header">
+        <nav class="navbar">
+            <div>
+                <a class="nav-arrow" href="index.html">
+                    <i class="fa-solid fa-arrow-left fa-lg"></i>
+                </a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="games.html" title="Tournament">Party Details</a></li>
+                    <li><a href="rsvp.html" title="RSVP">RSVP</a></li>  
+                </ul> 
+            </div>      
+        </nav>
+    </header>
+    <main>
+        <div class="rsvp-form">
+            <form action="https://formsubmit.co/mserr113@gmail.com" method="POST">
+                <input type="text" name="name" placeholder="name" required>
+                <input type="text" name="# of attendees" placeholder="# of attendees" required>
+                <input type="hidden" name="_next" value="https://mserr113.github.io/Franks-40th-Birthday/games.html">
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </main>
 </body>
