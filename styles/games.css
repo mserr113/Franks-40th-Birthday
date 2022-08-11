@@ -3,23 +3,30 @@
   padding: 0;
 }
 
-.party-breakdown {
-  text-align: center;
+.party-details-container {
+  padding-top: 1.5em;
 }
-.party-breakdown .tournament,
-.party-breakdown .mini-game,
-.party-breakdown .eat-drink {
+
+.tournament,
+.mini-game,
+.eat-drink {
   padding-bottom: 2em;
 }
-.party-breakdown .tournament h2,
-.party-breakdown .mini-game h2,
-.party-breakdown .eat-drink h2 {
+.tournament h3,
+.mini-game h3,
+.eat-drink h3 {
   font-family: "Press Start 2P", cursive;
   padding-bottom: 0.5em;
 }
-.party-breakdown .tournament p,
-.party-breakdown .mini-game p,
-.party-breakdown .eat-drink p {
-  color: black;
+.tournament p,
+.mini-game p,
+.eat-drink p {
   font-weight: 700;
+  padding: 0 1em;
+}
+
+.game-image {
+  width: 50%;
+  height: auto;
+  aspect-ratio: 1/1;
 }/*# sourceMappingURL=games.css.map */
