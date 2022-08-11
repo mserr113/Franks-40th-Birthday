@@ -44,11 +44,17 @@ button {
   background-color: black;
 }
 
+.tournament-note,
 .attention {
   font-weight: 700;
   margin: 1em;
   text-align: center;
 }
+.tournament-note .attention-note,
 .attention .attention-note {
+  color: black;
+}
+
+.black {
   color: black;
 }/*# sourceMappingURL=rsvp.css.map */
