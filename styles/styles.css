@@ -74,4 +74,7 @@
 }
 .party-page .party-details .rsvp-link {
   color: #00ff00;
+}
+.party-page .party-details .rsvp-link:visited {
+  color: #00ff00;
 }/*# sourceMappingURL=styles.css.map */
