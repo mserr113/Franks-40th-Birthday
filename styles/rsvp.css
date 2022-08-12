@@ -57,4 +57,15 @@ button {
 
 .black {
   color: black;
+}
+
+.no-gifts {
+  text-align: center;
+}
+.no-gifts i {
+  padding-top: 2em;
+}
+.no-gifts .gifts-message {
+  padding: 1em;
+  font-weight: 700;
 }/*# sourceMappingURL=rsvp.css.map */
