@@ -12,8 +12,9 @@
 
 .navbar {
   display: flex;
-  padding-top: 2em;
+  padding-top: 1.5em;
   padding-left: 0.5em;
+  padding-bottom: 1.5em;
 }
 
 .nav-links {
@@ -58,7 +59,7 @@
   line-height: 3em;
   font-family: "Press Start 2P", cursive;
   text-align: center;
-  margin-bottom: 0;
+  margin: 0;
 }
 .party-page h1 .forty {
   font-size: 100px;
