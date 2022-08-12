@@ -71,4 +71,7 @@
 }
 .party-page .party-details .date-time, .party-page .party-details .location {
   margin: 2em;
+}
+.party-page .party-details .rsvp-link {
+  color: #00ff00;
 }/*# sourceMappingURL=styles.css.map */
