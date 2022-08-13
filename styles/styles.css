@@ -53,16 +53,16 @@
   color: #00ff00;
 }
 .party-page h1 {
-  padding-top: 1.25em;
-  padding-bottom: 0.5em;
-  font-size: 40px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 42px;
   line-height: 3em;
   font-family: "Press Start 2P", cursive;
   text-align: center;
   margin: 0;
 }
 .party-page h1 .forty {
-  font-size: 100px;
+  font-size: 104px;
 }
 .party-page .party-details {
   font-weight: 700;
