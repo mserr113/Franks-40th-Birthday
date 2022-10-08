@@ -20,7 +20,7 @@
 .nav-links {
   flex: 1;
   text-align: right;
-  margin-right: 1em;
+  margin-right: 0.5em;
 }
 
 .nav-links ul li {
@@ -80,6 +80,8 @@
 }
 .party-page .party-image {
   height: 100vw;
+  margin-bottom: 1.5em;
+  border-radius: 12px;
 }
 
 @-webkit-keyframes fadeout {
